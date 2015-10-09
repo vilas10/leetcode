@@ -8,7 +8,7 @@ You must do this in-place without making a copy of the array.
 Minimize the total number of operations.
 */
 
-public class Solution {
+public class Move_Zeroes {
     public void moveZeroes(int[] nums) {
         int zIndex = -1;
         int zCount = 0;
