@@ -22,7 +22,7 @@ For example, the lowest common ancestor (LCA) of nodes 2 and 8 is 6. Another exa
  *     TreeNode(int x) { val = x; }
  * }
  */
-public class Solution {
+public class Lowest_Common_Ancestor_Binary_Search_Tree {
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
         if(root == null) {
             return null;
