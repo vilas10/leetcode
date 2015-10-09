@@ -8,7 +8,7 @@ Note:
 Your algorithm should run in linear runtime complexity. Could you implement it using only constant extra space complexity?
 */
 
-public class Solution {
+public class Missing_Number {
     public int missingNumber(int[] nums) {
         if(nums == null || nums.length == 0) {
             return -1;
