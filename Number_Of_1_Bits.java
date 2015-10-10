@@ -6,7 +6,7 @@ For example, the 32-bit integer ’11' has binary representation 000000000000000
 so the function should return 3.
 */
 
-public class Solution {
+public class Number_Of_1_Bits {
     // you need to treat n as an unsigned value
     public int hammingWeight(int n) {
         int count = 0;
