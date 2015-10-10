@@ -10,7 +10,7 @@ Could you solve it with constant space complexity? (Note: The output array does 
 */
 
 /* The following commented code is solution for O(n) space 
-public class Solution {
+public class Product_Of_Array_Except_Self {
     public int[] productExceptSelf(int[] nums) {
         if(nums == null || nums.length == 0) {
             return null;
