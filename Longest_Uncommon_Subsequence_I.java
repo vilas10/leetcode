@@ -8,6 +8,6 @@ The input will be two strings, and the output needs to be the length of the long
 
 class Solution {
     public int findLUSlength(String a, String b) {
-        
+        return a.equals(b) ? -1 : Math.max(a.length(), b.length());
     }
 }
