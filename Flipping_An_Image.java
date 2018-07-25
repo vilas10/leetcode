@@ -8,6 +8,17 @@ To invert an image means that each 0 is replaced by 1, and each 1 is replaced by
 
 class Solution {
     public int[][] flipAndInvertImage(int[][] A) {
+        int rows = A.length;
+        int cols = A[0].length;
         
+        int[][] result = new int[rows][cols];
+        
+        for (int i = 0; i < rows; i++) {
+           for (int j = 0; j < cols; j++) {
+                result[i][j] = A[i][cols - j - 1] == 1 ? 0 : 1;       
+           }
+        }
+        
+        return result;
     }
 }
