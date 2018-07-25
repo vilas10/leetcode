@@ -17,7 +17,39 @@ Return the final sentence representing the conversion from S to Goat Latin.
 */
 
 class Solution {
+    StringBuilder sb1 = new StringBuilder();
+    
     public String toGoatLatin(String S) {
+        String[] words = S.split(" ");
+        StringBuilder sb = new StringBuilder();
+        Set<String> vowels = new HashSet<>(Arrays.asList("a", "e", "i", "o", "u", "A", "E", "I", "O", "U"));
         
+        
+        for (int i = 0; i < words.length; i++) {
+            String first = words[i].charAt(0) + "";
+            
+            if (vowels.contains(first)) {
+                sb.append(words[i] + "ma");
+            } else {
+                sb.append(words[i].substring(1) + first + "ma");
+            }
+            
+            sb.append(aString(i + 1));
+            sb.append(" ");
+        }
+        
+        String goatLatin = sb.toString();
+        
+        return goatLatin.substring(0, goatLatin.length() - 1);
+    }
+    
+    public String aString(int len) {
+        sb1.setLength(0);
+        
+        for (int i = 0; i < len; i++) {
+            sb1.append("a");
+        }
+        
+        return sb1.toString();
     }
 }
