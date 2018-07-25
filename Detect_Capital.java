@@ -10,7 +10,9 @@ Otherwise, we define that this word doesn't use capitals in a right way.
 */
 
 class Solution {
-    public boolean detectCapitalUse(String word) {
-        
+    public boolean detectCapitalUse(String word) {        
+        return word.toUpperCase().equals(word) || 
+            word.toLowerCase().equals(word) || 
+            word.substring(1).toLowerCase().equals(word.substring(1));
     }
 }
