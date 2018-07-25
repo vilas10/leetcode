@@ -7,6 +7,7 @@ Now given the employee information of a company, and an employee id, you need to
 */
 
 /*
+/*
 // Employee info
 class Employee {
     // It's the unique id of each node;
@@ -20,6 +21,23 @@ class Employee {
 */
 class Solution {
     public int getImportance(List<Employee> employees, int id) {
+        int result = 0;
+        Employee emp = null;
+        for (Employee e: employees) {
+            if (e.id == id) {
+                emp = e;
+                break;
+            }
+        }
         
+        if (emp == null) return -1;
+        else if (emp.subordinates.size() == 0) return emp.importance;
+        else result = emp.importance;
+        
+        for (Employee e: employees) {
+            if (emp.subordinates.contains(e.id)) result += getImportance(employees, e.id);
+        }
+        
+        return result;
     }
 }
