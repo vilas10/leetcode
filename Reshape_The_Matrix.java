@@ -10,10 +10,28 @@ If the 'reshape' operation with given parameters is possible and legal, output t
 
 class Solution {
     public int[][] matrixReshape(int[][] nums, int r, int c) {
-        if (nums.length * nums[0].length != r * c) return nums;
+        if (nums == null || nums.length == 0) return nums;
         
-        int[][] reshaped = new int[r][c];
+        int rows = nums.length;
+        int cols = nums[0].length;
         
-        for (int i = 0)
+        if (r * c !=  rows * cols || (r == rows && c == cols)) return nums;
+        
+        int[][] result = new int[r][c];
+        int p = 0, q = 0;
+        
+        for (int i = 0; i < rows; i++) {
+            for (int j = 0; j < cols; j++) {
+                result[p][q] = nums[i][j];
+                
+                if (q < c) q++; 
+                if (q == c) {
+                    q = 0;
+                    p++;
+                } 
+            }
+        }
+        
+        return result;
     }
 }
