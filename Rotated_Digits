@@ -8,6 +8,23 @@ Now given a positive number N, how many numbers X from 1 to N are good?
 
 class Solution {
     public int rotatedDigits(int N) {
+        int count = 0;
         
+        for (int i = 1; i <= N; i++) {
+            if (good(i, false)) count++;
+        }
+        
+        return count;
+    }
+    
+    public boolean good(int n, boolean flag) {
+        if (n == 0) return flag;
+        
+        int k = n % 10;
+            
+        if (k == 3 || k == 4 || k == 7) return false;
+        if (k == 0 || k == 1 || k == 8) return good(n/10, flag);
+            
+        return good(n/10, true);
     }
 }
