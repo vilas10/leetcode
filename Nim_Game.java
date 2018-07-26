@@ -4,8 +4,16 @@ You are playing the following Nim Game with your friend: There is a heap of ston
 Both of you are very clever and have optimal strategies for the game. Write a function to determine whether you can win the game given the number of stones in the heap.
 */
 
-class Solution {
+public class Solution {
     public boolean canWinNim(int n) {
+        if(n < 4) {
+            return true;
+        }
         
+        if(n % 4 == 0) {
+            return false;
+        } else {
+            return true;
+        }
     }
 }
