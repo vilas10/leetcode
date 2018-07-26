@@ -8,6 +8,11 @@ Given an array that is definitely a mountain, return any i such that A[0] < A[1]
 
 class Solution {
     public int peakIndexInMountainArray(int[] A) {
+        int i = 1;
+        for (; i < A.length; i++) {
+            if (A[i-1] > A[i]) break;
+        }
         
+        return i-1;
     }
 }
