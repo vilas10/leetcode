@@ -8,6 +8,6 @@ You could assume no leading zero bit in the integer’s binary representation.
 
 class Solution {
     public int findComplement(int num) {
-        
+        return ~num & (Integer.highestOneBit(num) - 1);
     }
 }
