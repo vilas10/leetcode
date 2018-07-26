@@ -8,6 +8,43 @@ We are given a list cpdomains of count-paired domains. We would like a list of c
 
 class Solution {
     public List<String> subdomainVisits(String[] cpdomains) {
+        Map<String, Integer> map = new HashMap<String, Integer>();
         
+        for (int i = 0; i < cpdomains.length; i++) {
+            String[] split = cpdomains[i].split(" ");
+            int count = Integer.parseInt(split[0]);
+            
+            if (map.containsKey(split[1])) {
+                map.put(split[1], map.get(split[1]) + count); 
+            } else {
+                map.put(split[1], count); 
+            }
+            
+            String[] dot1 = split[1].split("\\.", 2);
+            if (map.containsKey(dot1[1])) {
+                map.put(dot1[1], map.get(dot1[1]) + count); 
+            } else {
+                map.put(dot1[1], count); 
+            }
+            
+            if (dot1[1].contains(".")) {
+                String[] dot2 = dot1[1].split("\\.", 2);
+                
+                if (map.containsKey(dot2[1])) {
+                    map.put(dot2[1], map.get(dot2[1]) + count); 
+                } else {
+                    map.put(dot2[1], count); 
+                }
+            }
+        }
+        
+        List<String> result = new ArrayList<String>();
+        
+        for (String key: map.keySet()) {
+            String s = map.get(key) + " " + key;
+            result.add(s);
+        }
+        
+        return result;
     }
 }
