@@ -7,7 +7,7 @@ b = "1"
 Return "100".
 */
 
-public class Solution {
+public class AddBinary {
     public String addBinary(String a, String b) {
         String sum = "";
         int alen = a.length();
