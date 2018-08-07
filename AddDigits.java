@@ -9,7 +9,7 @@ Follow up:
 Could you do it without any loop/recursion in O(1) runtime?
 */
 
-public class Add_Digits {
+public class AddDigits {
     /*public int addDigits(int num) {
         int sum = 0;
         
