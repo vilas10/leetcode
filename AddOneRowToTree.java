@@ -12,7 +12,7 @@ The adding rule is: given a positive integer depth d, for each NOT null tree nod
  *     TreeNode(int x) { val = x; }
  * }
  */
-public class Solution {
+public class AddOneRowToTree {
     public TreeNode addOneRow(TreeNode root, int v, int d) {
         if (d == 1) {
             TreeNode t = new TreeNode(v);
