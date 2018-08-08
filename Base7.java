@@ -1,7 +1,7 @@
 /*
 Given an integer, return its base 7 string representation.
 */
-public class Solution {
+public class Base7 {
     public String convertToBase7(int num) {
         String s = "";
         int next = 0;
