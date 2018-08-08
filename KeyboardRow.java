@@ -3,7 +3,7 @@ Given a List of words, return the words that can be typed using letters of alpha
 
 American keyboard
 
-public class Solution {
+public KeyboardRow {
     public String[] findWords(String[] words) {
         Set<String> row1 = new HashSet<String>(Arrays.asList("Q", "W", "E", "R", "T", "Y", "U", "I", "O", "P"));
         Set<String> row2 = new HashSet<String>(Arrays.asList("A", "S", "D", "F", "G", "H", "J", "K", "L"));
