@@ -22,7 +22,7 @@ Follow up: Recursive solution is trivial, could you do it iteratively?
  *     TreeNode(int x) { val = x; }
  * }
  */
-public class Solution {
+public class BinaryTreeInorderTraversal {
     public List<Integer> inorderTraversal(TreeNode root) {
         List<Integer> inorder = new ArrayList<Integer>();
         if(root == null) {
