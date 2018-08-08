@@ -13,7 +13,7 @@ Output: 7 -> 0 -> 8
  *     ListNode(int x) { val = x; }
  * }
  */
-public class Solution {
+public class AddTwoNumbers {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         
         ListNode sum = null;
