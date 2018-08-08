@@ -14,7 +14,7 @@ The tilt of the whole tree is defined as the sum of all nodes' tilt.
  *     TreeNode(int x) { val = x; }
  * }
  */
-public class Solution {
+public class BinaryTreeTilt {
     int resultTilt = 0;
     
     public int findTilt(TreeNode root) {
