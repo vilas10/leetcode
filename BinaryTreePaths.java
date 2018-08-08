@@ -11,7 +11,7 @@ Given a binary tree, return all root-to-leaf paths.
  *     TreeNode(int x) { val = x; }
  * }
  */
-public class Solution {
+public class BinaryTreePaths {
     public List<String> binaryTreePaths(TreeNode root) {
         List<String> result = new ArrayList<String>();
         
