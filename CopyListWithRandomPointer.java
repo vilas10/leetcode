@@ -9,7 +9,7 @@ https://leetcode.com/problems/copy-list-with-random-pointer/description/
  *     RandomListNode(int x) { this.label = x; }
  * };
  */
-public class Solution {
+public class CopyListWithRandomPointer {
     public RandomListNode copyRandomList(RandomListNode head) {
         if(head == null) {
             return null;
