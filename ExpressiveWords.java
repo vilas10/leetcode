@@ -20,7 +20,7 @@ Notes:
 0 <= len(words[i]) <= 100.
 S and all words in words consist only of lowercase letters
 */
-class Solution {
+class ExpressiveWords {
     class CharCount {
         public char c;
         public int count;
