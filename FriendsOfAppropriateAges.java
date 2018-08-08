@@ -34,7 +34,7 @@ Notes:
 1 <= ages.length <= 20000.
 1 <= ages[i] <= 120.
 */
-class Solution {
+class FriendsOfAppropriateAges {
     public int numFriendRequests(int[] ages) {
         int requests = 0;
         
