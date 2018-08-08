@@ -1,7 +1,7 @@
 /*
 https://leetcode.com/problems/coin-change/description/
 */
-public class Solution {
+public class CoinChange {
     public int coinChange(int[] coins, int amount) {
         if(coins == null) {
             return -1;
