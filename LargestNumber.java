@@ -1,7 +1,7 @@
 /*
 https://leetcode.com/problems/largest-number/description/
 */
-class Solution {
+class LargestNumber {
     public String largestNumber(int[] nums) {
         String[] numstrs = new String[nums.length];
         
