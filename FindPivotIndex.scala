@@ -4,7 +4,7 @@ We define the pivot index as the index where the sum of the numbers to the left 
 If no such index exists, we should return -1. If there are multiple pivot indexes, you should return the left-most pivot index.
 */
 
-object Solution {
+object FindPivotIndex {
     def pivotIndex(nums: Array[Int]): Int = {
         if (nums == null || nums.length == 0) return -1
         
