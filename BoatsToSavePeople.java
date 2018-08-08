@@ -27,7 +27,7 @@ Note:
 1 <= people.length <= 50000
 1 <= people[i] <= limit <= 30000
 */
-class Solution {
+class BoatsToSavePeople {
     public int numRescueBoats(int[] people, int limit) {
         Arrays.sort(people);
         
