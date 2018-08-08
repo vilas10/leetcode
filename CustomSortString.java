@@ -5,7 +5,7 @@ S was sorted in some custom order previously. We want to permute the characters 
 
 Return any permutation of T (as a string) that satisfies this property.
 */
-class Solution {
+class CustomSortString {
     public String customSortString(String S, String T) {
         char[] arr = S.toCharArray();
         String temp = T;
