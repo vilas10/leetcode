@@ -6,7 +6,7 @@ Strings consists of lowercase English letters only and the length of both string
 The order of output does not matter.
 */
 
-class Solution {
+class FindAllAnagramsInAString {
     public List<Integer> findAnagrams(String s, String p) {
         List<Integer> result = new ArrayList<>();
         int[] counter = new int[26];
