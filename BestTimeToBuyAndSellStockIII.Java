@@ -1,7 +1,7 @@
 /*
 https://leetcode.com/submissions/detail/51840642/
 */
-public class Solution {
+public class BestTimeToBuyAndSellStockIII {
     public int maxProfit(int[] prices) {
         if(prices == null || prices.length == 0 || prices.length == 1) {
             return 0;
