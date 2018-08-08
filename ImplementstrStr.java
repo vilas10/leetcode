@@ -9,7 +9,7 @@ If you still see your function signature returns a char * or String,
 please click the reload button  to reset your code definition.
 */
 
-public class Solution {
+public class ImplementstrStr {
     public int strStr(String haystack, String needle) {
         if(haystack == null || needle == null) {
             return -1; 
