@@ -10,7 +10,7 @@ You may imagine that num[-1] = num[n] = -∞.
 For example, in array [1, 2, 3, 1], 3 is a peak element and your function should return the index number 2.
 */
 
-public class Solution {
+public class FindPeakElement {
     public boolean flag = false;
     public int findPeakElement(int[] nums) {
         if(nums == null || nums.length == 0) {
