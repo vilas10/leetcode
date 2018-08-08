@@ -3,7 +3,7 @@ Given a non-empty array of non-negative integers nums, the degree of this array 
 
 Your task is to find the smallest possible length of a (contiguous) subarray of nums, that has the same degree as nums.
 */
-object Solution {
+object DegreeOfAnArray {
     def findShortestSubArray(nums: Array[Int]): Int = {
         var leftmap = Map[Int, Int]()
         var rightmap = Map[Int, Int]()
