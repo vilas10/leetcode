@@ -4,7 +4,7 @@ Given a positive integer N, find and return the longest distance between two con
 If there aren't two consecutive 1's, return 0.
 */
 
-class Solution {
+class BinaryGap {
     public int binaryGap(int N) {
         int gap = 0;
         int maxgap = 0;
