@@ -8,7 +8,7 @@ Example 2:
 Input: [1,2,3,4,5], k=4, x=-1
 Output: [1,2,3,4]
 */
-public class Solution {
+public class FindKClosestElements {
     public List<Integer> findClosestElements(List<Integer> arr, int k, int x) {
         ArrayList<Integer> newarr = new ArrayList<Integer>(arr);
         int left = 0;
