@@ -34,7 +34,7 @@ Note:
 0 <= position[i] < target
 All initial positions are different.
 */
-class Solution {
+class CarFleet {
     public int carFleet(int target, int[] position, int[] speed) {
         ArrayList list = new ArrayList<CarTime>();
         for(int i=0; i<position.length; i++){
