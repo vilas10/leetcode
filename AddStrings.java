@@ -2,7 +2,7 @@
 Given two non-negative integers num1 and num2 represented as string, return the sum of num1 and num2.
 */
 
-public class Solution {
+public class AddStrings {
     public String addStrings(String num1, String num2) {
         StringBuilder result = new StringBuilder();        
         int carry = 0;
