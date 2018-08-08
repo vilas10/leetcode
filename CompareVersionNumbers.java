@@ -11,7 +11,7 @@ Here is an example of version numbers ordering:
 0.1 < 1.1 < 1.2 < 13.37
 */
 
-public class Solution {
+public class CompareVersionNumbers {
     public int compareVersion(String version1, String version2) {
         String[] v1 = version1.split("\\.");
         String[] v2 = version2.split("\\.");
