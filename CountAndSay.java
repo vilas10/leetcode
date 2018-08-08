@@ -11,7 +11,7 @@ The count-and-say sequence is the sequence of integers with the first five terms
 Given an integer n, generate the nth term of the count-and-say sequence.
 */
 
-public class Solution {
+public class CountAndSay {
     public String countAndSay(int n) {
         if(n <= 0) {
             return null;
