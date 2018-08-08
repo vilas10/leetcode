@@ -11,7 +11,7 @@ Example: 19 is a happy number
 12 + 02 + 02 = 1
 */
 
-public class Happy_Number {
+public class HappyNumber {
     public boolean isHappy(int n) {
         
         if(n <= 0)
