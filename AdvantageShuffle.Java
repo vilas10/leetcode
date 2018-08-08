@@ -3,7 +3,7 @@ Given two arrays A and B of equal size, the advantage of A with respect to B is 
 
 Return any permutation of A that maximizes its advantage with respect to B.
 */
-class Solution {
+class AdvantageShuffle {
     public int[] advantageCount(int[] A, int[] B) {
         // A = [12,24,8,32], B =  [13,25,32,11]
         // Acopy 8,12,24,32  Bcopy 11,13,35,39
