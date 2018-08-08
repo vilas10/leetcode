@@ -27,7 +27,7 @@ Note:
 poured will be in the range of [0, 10 ^ 9].
 query_glass and query_row will be in the range of [0, 99].
 */
-class Solution {
+class ChampagneTower {
     public double champagneTower(int poured, int query_row, int query_glass) {
         double[][] tower = new double[101][101];
         
