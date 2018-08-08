@@ -10,7 +10,7 @@ You can walk back and forth between rooms freely.
 Return true if and only if you can enter every room.
 */
 
-class Solution {
+class KeysAndRooms {
     public boolean canVisitAllRooms(List<List<Integer>> rooms) {
         int total = rooms.size();
         boolean[] doors = new boolean[total];
