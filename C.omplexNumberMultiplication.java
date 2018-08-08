@@ -3,7 +3,7 @@ Given two strings representing two complex numbers.
 
 You need to return a string representing their multiplication. Note i2 = -1 according to the definition.
 */
-class Solution {
+class omplexNumberMultiplication {
     public String complexNumberMultiply(String a, String b) {
         String[] x = a.split("\\+|i");
         String[] y = b.split("\\+|i");
