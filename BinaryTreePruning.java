@@ -14,7 +14,7 @@ Return the same tree where every subtree (of the given tree) not containing a 1 
  *     TreeNode(int x) { val = x; }
  * }
  */
-class Solution {
+class BinaryTreePruning {
     public TreeNode pruneTree(TreeNode root) {
         if (root == null) return null;
         
