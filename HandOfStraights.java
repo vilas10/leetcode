@@ -5,7 +5,7 @@ Now she wants to rearrange the cards into groups so that each group is size W, a
 
 Return true if and only if she can.
 */
-class Solution {
+class HandOfStraights {
     public boolean isNStraightHand(int[] hand, int W) {
         if (hand.length % W != 0) return false;
         
