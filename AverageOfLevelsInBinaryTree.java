@@ -11,7 +11,7 @@ Given a non-empty binary tree, return the average value of the nodes on each lev
  *     TreeNode(int x) { val = x; }
  * }
  */
-class Solution {
+class AverageOfLevelsInBinaryTree {
     public List<Double> averageOfLevels(TreeNode root) {
         List<Double> result = new ArrayList<>();
         Queue<TreeNode> queue = new LinkedList<>();
