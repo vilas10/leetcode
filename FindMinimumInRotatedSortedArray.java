@@ -7,7 +7,7 @@ Find the minimum element.
 
 You may assume no duplicate exists in the array.
 */
-public class Solution {
+public class FindMinimumInRotatedSortedArray {
     public int findMin(int[] nums) {
         if(nums == null || nums.length == 0) {
             return 0;
