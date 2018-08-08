@@ -19,7 +19,7 @@ class Employee {
     public List<Integer> subordinates;
 };
 */
-class Solution {
+class EmployeeImportance {
     public int getImportance(List<Employee> employees, int id) {
         int result = 0;
         Employee emp = null;
