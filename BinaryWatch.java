@@ -3,7 +3,7 @@ A binary watch has 4 LEDs on the top which represent the hours (0-11), and the 6
 
 Each LED represents a zero or one, with the least significant bit on the right.
 */
-public class Solution {
+public class BinaryWatch {
     public List<String> readBinaryWatch(int num) {
         List<String> result = new ArrayList<String>();
         
