@@ -2,7 +2,7 @@
 Given a string, find the first non-repeating character in it and return it's index. If it doesn't exist, return -1.
 */
 
-class Solution {
+class FirstUniqueCharacterInAString {
     public int firstUniqChar(String s) {
         if (s == "") return -1;
         int[] letters = new int[26];
