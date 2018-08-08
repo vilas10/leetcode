@@ -10,7 +10,7 @@ https://leetcode.com/problems/binary-tree-postorder-traversal/description/
  *     TreeNode(int x) { val = x; }
  * }
  */
-public class Solution {
+public class BinaryTreePostorderTraversal {
     public List<Integer> postorderTraversal(TreeNode root) {
         List<Integer> postorder = new LinkedList<Integer>();
         
