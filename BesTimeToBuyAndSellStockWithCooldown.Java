@@ -6,7 +6,7 @@ Design an algorithm to find the maximum profit. You may complete as many transac
 You may not engage in multiple transactions at the same time (ie, you must sell the stock before you buy again).
 After you sell your stock, you cannot buy stock on next day. (ie, cooldown 1 day)
 */
-public class Solution {
+public class BesTimeToBuyAndSellStockWithCooldown {
     public int maxProfit(int[] prices) {
         if(prices == null || prices.length == 0) {
             return 0;
