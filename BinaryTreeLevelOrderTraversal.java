@@ -25,7 +25,7 @@ return its level order traversal as:
  *     TreeNode(int x) { val = x; }
  * }
  */
-public class Solution {
+public class BinaryTreeLevelOrderTraversal {
     public List<List<Integer>> levelOrder(TreeNode root) {
         
         List<List<Integer>> li=new ArrayList<List<Integer>>();
