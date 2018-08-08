@@ -14,7 +14,7 @@ For example:
     AB -> 28 
 */
 
-public class Solution {
+public class ExcelSheetColumnNumber {
     public int titleToNumber(String s) {
         HashMap<String, Integer> alphabet = new HashMap<String, Integer>();
         for(int i=0; i<26; i++) {
