@@ -16,7 +16,7 @@ For example, the first word gets "a" added to the end, the second word gets "aa"
 Return the final sentence representing the conversion from S to Goat Latin.
 */
 
-class Solution {
+class GoatLatin {
     StringBuilder sb1 = new StringBuilder();
     
     public String toGoatLatin(String S) {
