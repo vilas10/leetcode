@@ -4,7 +4,7 @@ Your function should return true if any value appears at least twice in the arra
 it should return false if every element is distinct.
 */
 
-public class Contains_Duplicate {
+public class ContainsDuplicate {
     public boolean containsDuplicate(int[] nums) {
         
         HashSet<Integer> t=new HashSet<Integer>();
