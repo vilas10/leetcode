@@ -12,7 +12,7 @@ Supposed the linked list is 1 -> 2 -> 3 -> 4 and you are given the third node wi
  *     ListNode(int x) { val = x; }
  * }
  */
-public class Delete_Node_In_Linked_List {
+public class DeleteNodeInLinkedList {
     public void deleteNode(ListNode node) {
         
         if(node.next==null){
