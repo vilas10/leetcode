@@ -11,7 +11,7 @@ Given a binary tree, you need to compute the length of the diameter of the tree.
  *     TreeNode(int x) { val = x; }
  * }
  */
-class Solution {
+class DiameterOfBinaryTree {
     int diameter = 0;
     
     public int diameterOfBinaryTree(TreeNode root) {                
