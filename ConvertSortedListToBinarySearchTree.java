@@ -32,7 +32,7 @@ One possible answer is: [0,-3,9,-10,null,5], which represents the following heig
  *     TreeNode(int x) { val = x; }
  * }
  */
-public class Solution {
+public class ConvertSortedListToBinarySearchTree {
     private ListNode node;
     public TreeNode sortedListToBST(ListNode head) {
         
