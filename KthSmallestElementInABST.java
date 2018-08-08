@@ -34,7 +34,7 @@ What if the BST is modified (insert/delete operations) often and you need to fin
  *     TreeNode(int x) { val = x; }
  * }
  */
-public class Solution {
+public class KthSmallestElementInABST {
     private int kth;
     public int kthSmallest(TreeNode root, int k) {
         if(root == null) {
