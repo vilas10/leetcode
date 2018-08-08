@@ -6,7 +6,7 @@ Given n, find the total number of full staircase rows that can be formed.
 n is a non-negative integer and fits within the range of a 32-bit signed integer.
 */
 
-public class Solution {
+public class ArrangingCoins {
     public int arrangeCoins(int n) {
         int i = 1;
         
