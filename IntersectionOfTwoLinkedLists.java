@@ -31,7 +31,7 @@ Your code should preferably run in O(n) time and use only O(1) memory.
  *     }
  * }
  */
-public class Solution {
+public class IntersectionOfTwoLinkedLists {
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
         if(headA == null || headB == null) {
             return null;
