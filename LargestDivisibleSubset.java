@@ -14,7 +14,7 @@ nums: [1,2,4,8]
 
 Result: [1,2,4,8]
 */
-class Solution {
+class LargestDivisibleSubset {
     public List<Integer> largestDivisibleSubset(int[] nums) {
         List<Integer> subset = new ArrayList<>();
         if (nums == null || nums.length == 0) return subset;
