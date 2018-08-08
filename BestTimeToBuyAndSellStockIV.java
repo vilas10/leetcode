@@ -1,7 +1,7 @@
 /*
 https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/description/
 */
-public class Solution {
+public class BestTimeToBuyAndSellStockIV {
     public int maxProfit(int k, int[] prices) {
         if(prices == null || prices.length == 0 || prices.length == 1) {
             return 0;
