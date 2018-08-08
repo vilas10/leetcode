@@ -17,7 +17,7 @@ Output: [-1,-1]
 /*  1. Using binary search, find the target. Once found, look for left and right extremes. O(logn + n)
     2. Using binary search, find the target, and using left and right, find the limits
 */
-public class Solution {
+public class FindFirstAndLastPositionOfElementInSortedArray {
     public int[] searchRange(int[] nums, int target) {
         int[] limits = new int[]{-1, -1};
         
