@@ -18,7 +18,7 @@ X can be placed before L (50) and C (100) to make 40 and 90.
 C can be placed before D (500) and M (1000) to make 400 and 900.
 Given an integer, convert it to a roman numeral. Input is guaranteed to be within the range from 1 to 3999.
 */
-public class Solution {
+public class IntegerToRoman {
     public String intToRoman(int num) {
         String[] M = {"", "M", "MM", "MMM"};
         String[] C = {"", "C", "CC", "CCC", "CD", "D", "DC", "DCC", "DCCC", "CM"};
