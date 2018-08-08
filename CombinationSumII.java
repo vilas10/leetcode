@@ -26,7 +26,7 @@ A solution set is:
   [5]
 ]
 */
-public class Solution {
+public class CombinationSumII {
     public List<List<Integer>> combinationSum2(int[] candidates, int target) {
      List<List<Integer>> set = new ArrayList<List<Integer>>();
         if(candidates == null || candidates.length == 0 || target < 0) {
