@@ -1,7 +1,7 @@
 /*
 Given two integers n and k, return all possible combinations of k numbers out of 1 ... n.
 */
-public class Solution {
+public class Combinations {
     public List<List<Integer>> combine(int n, int k) {
         List<List<Integer>> combis = new ArrayList<List<Integer>>();
         if(n <= 0 || k <= 0) {
