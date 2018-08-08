@@ -1,7 +1,7 @@
 /*
 https://leetcode.com/problems/divide-two-integers/description/
 */
-public class Solution {
+public class DivideTwoIntegers {
     public int divide(int dividend, int divisor) {
         if(divisor == 0) {
             return Integer.MAX_VALUE;
