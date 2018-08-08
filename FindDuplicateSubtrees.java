@@ -29,7 +29,7 @@ Therefore, you need to return above trees' root in the form of a list.
  *     TreeNode(int x) { val = x; }
  * }
  */
-public class Solution {
+public class FindDuplicateSubtrees {
     HashMap<String, TreeNode> map;
     List<TreeNode> result;
     Set<String> set;
