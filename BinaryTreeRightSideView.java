@@ -10,7 +10,7 @@ Given a binary tree, imagine yourself standing on the right side of it, return t
  *     TreeNode(int x) { val = x; }
  * }
  */
-public class Solution {
+public class BinaryTreeRightSideView {
     static int max = 1;
     public List<Integer> rightSideView(TreeNode root) {
         List<Integer> rightview = new ArrayList<Integer>();
