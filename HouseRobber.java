@@ -9,7 +9,7 @@ Given a list of non-negative integers representing the amount of money of each h
 determine the maximum amount of money you can rob tonight without alerting the police.
 */
 
-public class House_Robber {
+public class HouseRobber {
     public int rob(int[] nums) {
         if(nums == null || nums.length == 0) {
             return 0;
