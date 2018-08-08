@@ -11,7 +11,7 @@ The null node needs to be represented by empty parenthesis pair "()". And you ne
  *     TreeNode(int x) { val = x; }
  * }
  */
-public class Solution {
+public class ConstructStringFromBinaryTree {
     public String tree2str(TreeNode t) {
         if (t == null) return "";
         String s = "" + t.val;
