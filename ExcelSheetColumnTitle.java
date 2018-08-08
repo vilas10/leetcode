@@ -12,7 +12,7 @@ For example:
     28 -> AB 
 */
 
-public class Solution {
+public class ExcelSheetColumnTitle {
     public String convertToTitle(int n) {
         
         String title = "";
