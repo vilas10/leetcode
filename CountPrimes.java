@@ -4,7 +4,7 @@ Description:
 Count the number of prime numbers less than a non-negative number, n.
 */
 
-public class Count_Primes {
+public class CountPrimes {
     public int countPrimes(int n) {
         
         if(n==0 || n==1 || n==2){
