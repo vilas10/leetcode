@@ -11,7 +11,7 @@ Given an array where elements are sorted in ascending order, convert it to a hei
  *     TreeNode(int x) { val = x; }
  * }
  */
-public class Solution {
+public class ConvertSortedArrayToBST {
     public TreeNode sortedArrayToBST(int[] nums) {
         if(nums == null || nums.length == 0) {
             return null;
