@@ -14,7 +14,7 @@ in which the depth of the two subtrees of every node never differ by more than 1
  *     TreeNode(int x) { val = x; }
  * }
  */
-public class Solution {
+public class BalancedBinaryTree {
     
     public boolean isBalanced(TreeNode root) {
         if(root == null) {
