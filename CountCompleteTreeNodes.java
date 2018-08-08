@@ -16,7 +16,7 @@ It can have between 1 and 2h nodes inclusive at the last level h.
  *     TreeNode(int x) { val = x; }
  * }
  */
-public class Solution {
+public class CountCompleteTreeNodes {
     
     public int height = 0;
     public boolean found = false;
