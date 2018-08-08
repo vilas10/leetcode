@@ -5,7 +5,7 @@ Note:
 You may assume the greed factor is always positive. 
 You cannot assign more than one cookie to one child.
 */
-class Solution {
+class AssignCookies {
     public int findContentChildren(int[] g, int[] s) {
         Arrays.sort(g);
         Arrays.sort(s);
