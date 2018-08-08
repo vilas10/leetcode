@@ -7,7 +7,7 @@ Koko likes to eat slowly, but still wants to finish eating all the bananas befor
 
 Return the minimum integer K such that she can eat all the bananas within H hours.
 */
-class Solution {
+class KokoEatingBananas {
     public int minEatingSpeed(int[] piles, int H) {
         int min = IntStream.of(piles).min().getAsInt();
         int maxspeed = IntStream.of(piles).max().getAsInt();
