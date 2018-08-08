@@ -1,7 +1,7 @@
 /*
 Given two arrays, write a function to compute their intersection.
 */
-public class Solution {
+public class IntersectionOfTwoArraysII {
     public int[] intersect(int[] nums1, int[] nums2) {
         Arrays.sort(nums1);
         Arrays.sort(nums2);
