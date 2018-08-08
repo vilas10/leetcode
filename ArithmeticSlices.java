@@ -15,7 +15,7 @@ A[P], A[p + 1], ..., A[Q - 1], A[Q] is arithmetic. In particular, this means tha
 The function should return the number of arithmetic slices in the array A.
 */
 
-class Solution {
+class ArithmeticSlices {
     public int numberOfArithmeticSlices(int[] A) {
         if (A.length < 3) return 0;
         
