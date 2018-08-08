@@ -9,7 +9,7 @@ Only the first letter in this word is capital if it has more than one letter, li
 Otherwise, we define that this word doesn't use capitals in a right way.
 */
 
-class Solution {
+class DetectCapital {
     public boolean detectCapitalUse(String word) {        
         return word.toUpperCase().equals(word) || 
             word.toLowerCase().equals(word) || 
