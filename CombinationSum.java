@@ -3,7 +3,7 @@ Given a set of candidate numbers (candidates) (without duplicates) and a target 
 
 The same repeated number may be chosen from candidates unlimited number of times.
 */
-public class Solution {
+public class CombinationSum {
     public List<List<Integer>> combinationSum(int[] candidates, int target) {
         List<List<Integer>> set = new ArrayList<List<Integer>>();
         if(candidates == null || candidates.length == 0 || target < 0) {
