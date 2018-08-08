@@ -10,7 +10,7 @@ Using another example on S = "abcd", if we have both the replacement operation i
 All these operations occur simultaneously.  It's guaranteed that there won't be any overlap in replacement: for example, S = "abc", indexes = [0, 1], sources = ["ab","bc"] is not a valid test case.
 */
 
-class Solution {
+class FindAndReplaceInString {
     public String findReplaceString(String S, int[] indexes, String[] sources, String[] targets) {
         StringBuilder sb = new StringBuilder();
         int index = 0;
