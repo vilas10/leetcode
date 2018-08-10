@@ -4,7 +4,7 @@ Suppose Andy and Doris want to choose a restaurant for dinner, and they both hav
 You need to help them find out their common interest with the least list index sum. If there is a choice tie between answers, output all of them with no order requirement. You could assume there always exists an answer.
 */
 
-class Solution {
+class MinimumIndexSumOfTwoLists {
     public String[] findRestaurant(String[] list1, String[] list2) {
         Map<String, Integer> map = new HashMap<String, Integer>();
         int lowest = Integer.MAX_VALUE;
