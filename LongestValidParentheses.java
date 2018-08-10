@@ -1,7 +1,7 @@
 /*
 https://leetcode.com/problems/longest-valid-parentheses/description/
 */
-public class Solution {
+public class LongestValidParentheses {
     public int longestValidParentheses(String s) {
         if(s == null) {
             return 0;
