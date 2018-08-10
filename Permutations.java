@@ -1,7 +1,7 @@
 /*
 Given a collection of distinct integers, return all possible permutations.
 */
-public class Solution {
+public class Permutations {
     public List<List<Integer>> permute(int[] nums) {
         if(nums == null) {
             return null;
