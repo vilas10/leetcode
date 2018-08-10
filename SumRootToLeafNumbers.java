@@ -14,7 +14,7 @@ Find the total sum of all root-to-leaf numbers.
  *     TreeNode(int x) { val = x; }
  * }
  */
-public class Solution {
+public class SumRootToLeafNumbers {
     //public static int sum = 0;
     public int sumNumbers(TreeNode root) {
         if(root == null) {
