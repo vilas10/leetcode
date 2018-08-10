@@ -2,7 +2,7 @@
 Given a binary array, find the maximum number of consecutive 1s in this array.
 */
 
-class Solution {
+class MaxConsecutiveOnes {
     public int findMaxConsecutiveOnes(int[] nums) {
         int max = 0;
         int count = 0;
