@@ -6,7 +6,7 @@ A number is valid if each digit remains a digit after rotation. 0, 1, and 8 rota
 Now given a positive number N, how many numbers X from 1 to N are good?
 */
 
-class Solution {
+class RotatedDigits {
     public int rotatedDigits(int N) {
         int count = 0;
         
