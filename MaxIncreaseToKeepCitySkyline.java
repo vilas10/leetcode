@@ -5,7 +5,7 @@ At the end, the "skyline" when viewed from all four directions of the grid, i.e.
 
 What is the maximum total sum that the height of the buildings can be increased?
 */
-class Solution {
+class MaxIncreaseToKeepCitySkyline {
     public int maxIncreaseKeepingSkyline(int[][] grid) {
         int[] side = new int[grid.length];
         int[] top = new int[grid[0].length];
