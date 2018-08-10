@@ -1,5 +1,7 @@
-
-class Solution {
+/*
+https://leetcode.com/problems/maximum-subarray/description/
+*/
+class MaximumSubarray {
     public int maxSubArray(int[] nums) {
         if (nums == null || nums.length == 0) return 0;
         int[] maxSub = new int[nums.length];
