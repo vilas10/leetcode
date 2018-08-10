@@ -16,7 +16,7 @@ Given word = "ABCCED", return true.
 Given word = "SEE", return true.
 Given word = "ABCB", return false.
 */
-public class Solution {
+public class WordSearch {
     public boolean exist(char[][] board, String word) {
         if(board == null || board.length == 0 || word.length() == 0) {
             return true;
