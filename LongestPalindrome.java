@@ -4,7 +4,7 @@ Given a string which consists of lowercase or uppercase letters, find the length
 This is case sensitive, for example "Aa" is not considered a palindrome here.
 */
 
-public class Solution {
+public class LongestPalindrome {
     public int longestPalindrome(String s) {
         boolean[] alpha = new boolean[256];
         int count = 0;
