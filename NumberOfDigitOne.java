@@ -1,7 +1,7 @@
 /*
 https://leetcode.com/submissions/detail/52542581/
 */
-public class Solution {
+public class NumberOfDigitOne {
     public int countDigitOne(int n) {
         if(n <= 0) {
             return 0;
