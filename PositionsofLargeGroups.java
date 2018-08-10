@@ -7,7 +7,7 @@ Call a group large if it has 3 or more characters.  We would like the starting a
 
 The final answer should be in lexicographic order.
 */
-class Solution {
+class PositionsofLargeGroups {
     public List<List<Integer>> largeGroupPositions(String S) {
         char[] arr = S.toCharArray();
         int count = 1;
