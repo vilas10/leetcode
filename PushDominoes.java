@@ -15,7 +15,7 @@ For the purposes of this question, we will consider that a falling domino expend
 
 Given a string "S" representing the initial state. S[i] = 'L', if the i-th domino has been pushed to the left; S[i] = 'R', if the i-th domino has been pushed to the right; S[i] = '.', if the i-th domino has not been pushed.
 */
-class Solution {
+class PushDominoes {
     public String pushDominoes(String dominoes) {
         StringBuilder sb = new StringBuilder(dominoes);
         int start = -1;
