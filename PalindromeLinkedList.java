@@ -13,7 +13,7 @@ Could you do it in O(n) time and O(1) space?
  *     ListNode(int x) { val = x; }
  * }
  */
-public class Palindrome_Linked_List {
+public class PalindromeLinkedList {
     public boolean isPalindrome(ListNode head) {
         if(head == null || head.next == null) {
             return true;
