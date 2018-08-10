@@ -2,7 +2,7 @@
 Write a function that takes a string as input and reverse only the vowels of a string.
 */
 
-public class Solution {
+public class ReverseVowelsOfAString {
     public String reverseVowels(String s) {
         char[] sarray = s.toCharArray();
         
