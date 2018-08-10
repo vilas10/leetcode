@@ -33,7 +33,7 @@ Return the correct "mask" of the information provided.
 
 
 */
-class Solution {
+class MaskingPersonalInformation {
     public String maskPII(String S) {
         if (S.contains("@")) {
             return maskEmail(S);
