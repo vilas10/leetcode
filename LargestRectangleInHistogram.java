@@ -1,7 +1,7 @@
 /*
 https://leetcode.com/problems/largest-rectangle-in-histogram/description/
 */
-public class Solution {
+public class LargestRectangleInHistogram {
     public int largestRectangleArea(int[] heights) {
         if(heights == null || heights.length == 0) {
             return 0;
