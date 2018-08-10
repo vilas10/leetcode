@@ -10,7 +10,7 @@ Given two non-empty binary trees s and t, check whether tree t has exactly the s
  *     TreeNode(int x) { val = x; }
  * }
  */
-class Solution {
+class SubtreeOfAnotherTree {
     public boolean isSubtree(TreeNode s, TreeNode t) {
         if (s == null || t == null) return false;
         
