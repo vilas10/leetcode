@@ -19,7 +19,7 @@ Given target = 3, return true.
     2. Looking for last element in last column once found the row, look for the element in the row O(m+n)
     3. Binary search: Look for target in last column using Binary Search, once found the row, binary search in the row O(logm + logn) = O(logmn)
 */
-public class Solution {
+public class Search2DMatrix {
     public boolean searchMatrix(int[][] matrix, int target) {
      if(matrix == null) {   
          return false;
