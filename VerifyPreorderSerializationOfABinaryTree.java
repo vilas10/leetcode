@@ -29,7 +29,7 @@ Example 3:
 Input: "9,#,#,1"
 Output: false
 */
-public class Solution {
+public class VerifyPreorderSerializationOfABinaryTree {
     public boolean isValidSerialization(String preorder) {
         if(preorder == null || preorder.length() == 0) {
             return true;
