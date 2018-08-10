@@ -2,7 +2,7 @@
 Calculate the sum of two integers a and b, but you are not allowed to use the operator + and -.
 */
 
-class Solution {
+class SumofTwoIntegers {
     public int getSum(int a, int b) {
         while (b != 0) {
             int c = a & b;
