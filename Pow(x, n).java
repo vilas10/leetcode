@@ -1,7 +1,7 @@
 /*
 https://leetcode.com/problems/powx-n/description/
 */
-public class Solution {
+public class Pow(x, n) {
     public double myPow(double x, int n) {
         if(n == 0) {
             return 1;
