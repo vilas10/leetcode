@@ -2,7 +2,7 @@
 Given an integer, write a function to determine if it is a power of three.
 */
 
-public class Solution {
+public class PowerOfThree {
     public boolean isPowerOfThree(int n) {
         if(n == 0) {
             return false;
