@@ -7,7 +7,7 @@ Alex and Lee take turns, with Alex starting first.  Each turn, a player takes th
 
 Assuming Alex and Lee play optimally, return True if and only if Alex wins the game.
 */
-class Solution {
+class StoneGame {
     public boolean stoneGame(int[] piles) {
         if (piles.length == 2) return true;
         
