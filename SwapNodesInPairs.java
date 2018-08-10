@@ -9,7 +9,7 @@ Given a linked list, swap every two adjacent nodes and return its head.
  *     ListNode(int x) { val = x; }
  * }
  */
-public class Solution {
+public class SwapNodesInPairs {
     public ListNode swapPairs(ListNode head) {
         
         // Initialization
