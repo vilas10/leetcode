@@ -16,7 +16,7 @@ Note:
 Bonus point if you are able to do this using only O(n) extra space, where n is the total number of rows in the triangle.
 
 */
-public class Solution {
+public class Triangle {
     public int minimumTotal(List<List<Integer>> triangle) {
         if(triangle == null || triangle.isEmpty()) {
             return 0;
