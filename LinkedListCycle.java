@@ -15,7 +15,7 @@ Can you solve it without using extra space?
  *     }
  * }
  */
-public class Solution {
+public class LinkedListCycle {
     public boolean hasCycle(ListNode head) {
         
         if(head==null || head.next==null || head.next.next==null || head.next.next.next==null){
