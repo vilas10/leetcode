@@ -34,7 +34,7 @@ for (int i = 0; i < len; i++) {
     print(nums[i]);
 }
 */
-public class Solution {
+public class RemoveDuplicatesFromSortedArrayII {
     public int removeDuplicates(int[] nums) {
         if(nums==null || nums.length==0){
             return 0;
