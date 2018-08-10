@@ -12,7 +12,7 @@ If the robot would try to move onto them, the robot stays on the previous grid s
 
 Return the square of the maximum Euclidean distance that the robot will be from the origin.
 */
-class Solution {
+class WalkingRobotSimulation {
     public int robotSim(int[] commands, int[][] obstacles) {
         int[] pos = new int[2];
         int dir = 0;
