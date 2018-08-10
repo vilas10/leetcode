@@ -12,7 +12,7 @@ Two binary trees are considered the same if they are structurally identical and 
  *     TreeNode(int x) { val = x; }
  * }
  */
-public class Solution {
+public class SameTree {
     
     public boolean isSameTree(TreeNode p, TreeNode q) {
        boolean left = false;
