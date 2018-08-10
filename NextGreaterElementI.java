@@ -4,7 +4,7 @@ You are given two arrays (without duplicates) nums1 and nums2 where nums1’s el
 The Next Greater Number of a number x in nums1 is the first greater number to its right in nums2. If it does not exist, output -1 for this number.
 */
 
-class Solution {
+class NextGreaterElementI {
     public int[] nextGreaterElement(int[] nums1, int[] nums2) {
         Map<Integer, Integer> map = new HashMap<>();
         
