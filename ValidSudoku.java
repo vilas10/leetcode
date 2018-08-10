@@ -11,7 +11,7 @@ The Sudoku board could be partially filled, where empty cells are filled with th
 */
 
 
-public class Solution {
+public class ValidSudoku {
     public boolean isValidSudoku(char[][] board) {
         if(board == null || board.length == 0 || board[0].length == 0) {
             return true;
