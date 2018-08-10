@@ -11,7 +11,7 @@ Find the sum of all left leaves in a given binary tree.
  *     TreeNode(int x) { val = x; }
  * }
  */
-class Solution {
+class SumOfLeftLeaves {
     int sum = 0; 
     public int sumOfLeftLeaves(TreeNode root) {
         dfs(root, null);
