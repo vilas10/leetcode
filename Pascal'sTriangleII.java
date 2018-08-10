@@ -3,7 +3,7 @@ Given a non-negative index k where k ≤ 33, return the kth index row of the Pas
 Note that the row index starts from 0.
 */
 
-public class Solution {
+public class Pascal'sTriangleII {
     public List<Integer> getRow(int rowIndex) {
         List<Integer> pascal = new ArrayList<Integer>();
         if(rowIndex < 0) {
