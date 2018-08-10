@@ -6,7 +6,7 @@ Now, call a "count-paired domain" to be a count (representing the number of visi
 We are given a list cpdomains of count-paired domains. We would like a list of count-paired domains, (in the same format as the input, and in any order), that explicitly counts the number of visits to each subdomain.
 */
 
-class Solution {
+class SubdomainVisitCount {
     public List<String> subdomainVisits(String[] cpdomains) {
         Map<String, Integer> map = new HashMap<String, Integer>();
         
