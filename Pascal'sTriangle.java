@@ -1,7 +1,7 @@
 /*
 Given a non-negative integer numRows, generate the first numRows of Pascal's triangle.
 */
-public class Solution {
+public class Pascal'sTriangle {
     public List<List<Integer>> generate(int numRows) {
         List<List<Integer>> pascal = new ArrayList<List<Integer>>();
         if(numRows == 0) {
