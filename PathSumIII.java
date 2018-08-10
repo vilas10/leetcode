@@ -17,7 +17,7 @@ The tree has no more than 1,000 nodes and the values are in the range -1,000,000
  *     TreeNode(int x) { val = x; }
  * }
  */
-class Solution {
+class PathSumIII {
     int count = 0;
     public int pathSum(TreeNode root, int sum) {
         pathSum1(root, sum);
