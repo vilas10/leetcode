@@ -11,7 +11,7 @@ Try to come up as many solutions as you can, there are at least 3 different ways
 Related problem: Reverse Words in a String II
 */
 
-public class Rotate_Array {
+public class RotateArray {
     public void rotate(int[] nums, int k) {
         if(nums == null || nums.length == 0) {
             return;
