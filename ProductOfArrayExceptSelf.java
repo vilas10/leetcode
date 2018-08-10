@@ -43,7 +43,7 @@ public class Product_Of_Array_Except_Self {
 */
 
 /* Code with O(1) space */
-public class Solution {
+public class ProductOfArrayExceptSelf {
     public int[] productExceptSelf(int[] nums) {
         if(nums == null || nums.length == 0) {
             return null;
