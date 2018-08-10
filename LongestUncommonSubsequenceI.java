@@ -6,7 +6,7 @@ A subsequence is a sequence that can be derived from one sequence by deleting so
 The input will be two strings, and the output needs to be the length of the longest uncommon subsequence. If the longest uncommon subsequence doesn't exist, return -1.
 */
 
-class Solution {
+class LongestUncommonSubsequenceI {
     public int findLUSlength(String a, String b) {
         return a.equals(b) ? -1 : Math.max(a.length(), b.length());
     }
