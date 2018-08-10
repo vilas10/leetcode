@@ -11,7 +11,7 @@ You should try to do it in place. The program should run in O(1) space complexit
  *     ListNode(int x) { val = x; }
  * }
  */
-public class Solution {
+public class OddEvenLinkedList {
     public ListNode oddEvenList(ListNode head) {
         if(head == null) {
             return null;
