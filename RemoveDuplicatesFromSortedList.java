@@ -14,7 +14,7 @@ Given 1->1->2->3->3, return 1->2->3.
  *     ListNode(int x) { val = x; }
  * }
  */
-public class Solution {
+public class RemoveDuplicatesFromSortedList {
     public ListNode deleteDuplicates(ListNode head) {
         if(head == null || head.next == null) {
             return head;
