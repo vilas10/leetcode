@@ -11,7 +11,7 @@ Return 4.
 
 */
 
-public class Maximal_Square {
+public class MaximalSquare {
     public int maximalSquare(char[][] matrix) {
         if(matrix == null || matrix.length == 0) {
             return 0;
