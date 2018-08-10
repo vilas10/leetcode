@@ -1,7 +1,7 @@
 /*
 Given an array of numbers nums, in which exactly two elements appear only once and all the other elements appear exactly twice. Find the two elements that appear only once.
 */
-public class Solution {
+public class SingleNumberIII {
     public int[] singleNumber(int[] nums) {
         int[] result = new int[2];
         
