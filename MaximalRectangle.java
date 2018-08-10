@@ -1,7 +1,7 @@
 /*
 https://leetcode.com/problems/maximal-rectangle/description/
 */
-public class Solution {
+public class MaximalRectangle {
     public int maximalRectangle(char[][] matrix) {
         if(matrix == null || matrix.length == 0) {
             return 0;
