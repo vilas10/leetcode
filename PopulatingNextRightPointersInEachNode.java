@@ -40,7 +40,7 @@ After calling your function, the tree should look like:
  *     TreeLinkNode(int x) { val = x; }
  * }
  */
-public class Solution {
+public class PopulatingNextRightPointersInEachNode {
     public void connect(TreeLinkNode root) {
         if(root == null || root.left == null) {
             return;
