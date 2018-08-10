@@ -13,7 +13,7 @@ Note:
 1 is typically treated as an ugly number.
 n does not exceed 1690.
 */
-public class Solution {
+public class UglyNumberII {
     public int nthUglyNumber(int n) {
         if(n <= 0) {
             return 0;
