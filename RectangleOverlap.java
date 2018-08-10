@@ -5,7 +5,7 @@ Two rectangles overlap if the area of their intersection is positive.  To be cle
 
 Given two (axis-aligned) rectangles, return whether they overlap.
 */
-class Solution {
+class RectangleOverlap {
     public boolean isRectangleOverlap(int[] rec1, int[] rec2) {
         if (rec2[0] >= rec1[2] || rec2[2] <= rec1[0]) return false;
         if (rec2[1] >= rec1[3] || rec2[3] <= rec1[1]) return false;
