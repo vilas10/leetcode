@@ -6,7 +6,7 @@
  *     ListNode(int x) { val = x; }
  * }
  */
-public class Reverse_Linked_List {
+public class ReverseLinkedList {
     public ListNode reverseList(ListNode head) {
         if(head==null || head.next==null){
             return head;
