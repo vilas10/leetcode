@@ -9,7 +9,7 @@ Note:
 You may assume the string contains only lowercase alphabets.
 */
 
-public class Valid_Anagram {
+public class ValidAnagram {
     public boolean isAnagram(String s, String t) {
         
         if(s.length() != t.length()) {
