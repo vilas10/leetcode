@@ -11,7 +11,7 @@ Given a binary tree and a sum, determine if the tree has a root-to-leaf path suc
  *     TreeNode(int x) { val = x; }
  * }
  */
-public class Solution {
+public class PathSum {
     
     public boolean flag = false;
     
