@@ -11,7 +11,7 @@ Given a binary tree, check whether it is a mirror of itself (ie, symmetric aroun
  *     TreeNode(int x) { val = x; }
  * }
  */
-public class Solution {
+public class SymmetricTree {
     public boolean isSymmetric(TreeNode root) {
         if(root == null) {
             return true;
