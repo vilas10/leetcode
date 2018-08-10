@@ -39,7 +39,7 @@ After calling your function, the tree should look like:
  *     TreeLinkNode(int x) { val = x; }
  * }
  */
-public class Solution {
+public class PopulatingNextRightPointersInEachNodeII {
     public void connect(TreeLinkNode root) {
         if(root == null) {
             return;
