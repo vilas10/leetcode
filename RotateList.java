@@ -9,7 +9,7 @@ https://leetcode.com/problems/rotate-list/description/
  *     ListNode(int x) { val = x; }
  * }
  */
-public class Solution {
+public class RotateList {
     public ListNode rotateRight(ListNode head, int k) {
         if(head == null || k == 0 || head.next == null) {
             return head;
