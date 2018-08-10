@@ -13,7 +13,7 @@ Return the number of connected components in G, where two values are connected i
  *     ListNode(int x) { val = x; }
  * }
  */
-class Solution {
+class LinkedListComponents {
     public int numComponents(ListNode head, int[] G) {
         Set<Integer> set = new HashSet<>();
         
