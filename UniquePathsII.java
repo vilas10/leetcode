@@ -7,7 +7,7 @@ Now consider if some obstacles are added to the grids. How many unique paths wou
 An obstacle and empty space is marked as 1 and 0 respectively in the grid.
 
 */
-public class Solution {
+public class UniquePathsII {
     public int uniquePathsWithObstacles(int[][] obstacleGrid) {
         if(obstacleGrid == null || obstacleGrid.length == 0) {
             return 0;
