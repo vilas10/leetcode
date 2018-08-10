@@ -1,7 +1,7 @@
 /*
 Given a non-empty array of integers, every element appears three times except for one, which appears exactly once. Find that single one.
 */
-public class Solution {
+public class SingleNumberII {
     public int singleNumber(int[] nums) {
         int ones = 0, twos = 0;
         
