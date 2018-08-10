@@ -1,7 +1,7 @@
 /*
 https://leetcode.com/problems/nth-magical-number/description/
 */
-class Solution {
+class NthMagicalNumber {
     public int nthMagicalNumber(int N, int A, int B) {
         int lcm = (A * B) / gcd(A, B);
         System.out.println("lcm=" + lcm);
