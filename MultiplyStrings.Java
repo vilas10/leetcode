@@ -16,7 +16,7 @@ Both num1 and num2 contain only digits 0-9.
 Both num1 and num2 do not contain any leading zero, except the number 0 itself.
 You must not use any built-in BigInteger library or convert the inputs to integer directly.
 */
-public class Solution {
+public class MultiplyStrings {
     public String multiply(String num1, String num2) {
         if(num1 == null || num2 == null || num1.length() == 0 || num2.length() == 0) {
             return "";
