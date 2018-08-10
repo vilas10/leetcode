@@ -10,7 +10,7 @@ Here are few examples.
 [1,3,5,6], 0 → 0
 */
 
-public class Solution {
+public class SearchInsertPosition {
     public int searchInsert(int[] nums, int target) {
         if(nums == null) {
             return -1;
