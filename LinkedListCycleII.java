@@ -17,7 +17,7 @@ Can you solve it without using extra space?
  *     }
  * }
  */
-public class Solution {
+public class LinkedListCycleII {
     public ListNode detectCycle(ListNode head) {
         if(head == null) {
             return null;
