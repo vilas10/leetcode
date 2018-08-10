@@ -8,7 +8,7 @@ Alex wants to sit in the seat such that the distance between him and the closest
 Return that maximum distance to closest person.
 */
 
-class Solution {
+class MaximizeDistanceToClosestPerson {
     public int maxDistToClosest(int[] seats) {
         int gap = 0;
         int prev = -1;
