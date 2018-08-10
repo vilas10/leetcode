@@ -9,7 +9,7 @@ Input: numbers={2, 7, 11, 15}, target=9
 Output: index1=1, index2=2
 */
 
-public class Solution {
+public class TwoSum {
     public int[] twoSum(int[] nums, int target) {
         if(nums.length == 0 || nums.length == 1) {
             return null;
