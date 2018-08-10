@@ -13,7 +13,7 @@ You need to merge them into a new binary tree. The merge rule is that if two nod
  *     TreeNode(int x) { val = x; }
  * }
  */
-public class Solution {
+public class MergeTwoBinaryTrees {
     public TreeNode mergeTrees(TreeNode t1, TreeNode t2) {
         if (t1 == null && t2 == null) return null;
         else if (t1 == null) return t2;
