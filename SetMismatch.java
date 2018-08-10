@@ -3,7 +3,7 @@ The set S originally contains numbers from 1 to n. But unfortunately, due to the
 Given an array nums representing the data status of this set after the error. Your task is to firstly find the number occurs twice and then find the number that is missing. Return them in the form of an array.
 */
 
-public class Solution {
+public class SetMismatch {
     public int[] findErrorNums(int[] nums) {
         int[] result = new int[2];
         long expectedSum = nums.length * (nums.length + 1)/2;
