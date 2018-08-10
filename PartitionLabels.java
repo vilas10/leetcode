@@ -1,7 +1,7 @@
 /*
 A string S of lowercase letters is given. We want to partition this string into as many parts as possible so that each letter appears in at most one part, and return a list of integers representing the size of these parts.
 */
-class Solution {
+class PartitionLabels {
     public List<Integer> partitionLabels(String S) {
         Set<Character> visited = new HashSet<Character>();
         char[] arr = S.toCharArray();
