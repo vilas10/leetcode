@@ -6,7 +6,7 @@ You may assume that the array is non-empty and the majority element always exist
 
 /* Moore's Voting Algorithm */
 
-public class Solution {
+public class MajorityElement {
     public int majorityElement(int[] nums) {
         if(nums == null || nums.length == 0) {
             return 0;
