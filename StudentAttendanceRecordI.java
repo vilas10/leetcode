@@ -6,7 +6,7 @@ You are given a string representing an attendance record for a student. The reco
 A student could be rewarded if his attendance record doesn't contain more than one 'A' (absent) or more than two continuous 'L' (late).
 You need to return whether the student could be rewarded according to his attendance record.
 */
-public class Solution {
+public class StudentAttendanceRecordI {
     public boolean checkRecord(String s) {
         int a = 0;
         int l = 0;
