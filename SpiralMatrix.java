@@ -1,7 +1,7 @@
 /*
 https://leetcode.com/problems/spiral-matrix/description/
 */
-public class Solution {
+public class SpiralMatrix {
     public List<Integer> spiralOrder(int[][] matrix) {
         List<Integer> spiral = new ArrayList<Integer>();
         
