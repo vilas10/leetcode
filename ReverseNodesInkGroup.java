@@ -9,7 +9,7 @@ https://leetcode.com/problems/reverse-nodes-in-k-group/description/
  *     ListNode(int x) { val = x; }
  * }
  */
-public class Solution {
+public class ReverseNodesInkGroup {
     public ListNode reverseKGroup(ListNode head, int k) {
         if(head == null) {
             return null;
