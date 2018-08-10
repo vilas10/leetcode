@@ -1,7 +1,7 @@
 /*
 Given a collection of integers that might contain duplicates, nums, return all possible subsets (the power set).
 */
-public class Solution {
+public class SubsetsII {
     public List<List<Integer>> subsetsWithDup(int[] nums) {
         List<List<Integer>> subsetsOut = new ArrayList<List<Integer>>();
         if(nums == null || nums.length == 0) {
