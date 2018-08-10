@@ -16,7 +16,7 @@ Input: tickets = [["JFK","SFO"],["JFK","ATL"],["SFO","ATL"],["ATL","JFK"],["ATL"
 Output: ["JFK","ATL","JFK","SFO","ATL","SFO"]
 Explanation: Another possible reconstruction is ["JFK","SFO","ATL","JFK","ATL","SFO"]. But it is larger in lexical order.
 */
-public class Solution {
+public class ReconstructItinerary {
     public List<String> findItinerary(String[][] tickets) {
         List<String> itinerary = new LinkedList<String>();
         if(tickets == null || tickets.length == 0) {
