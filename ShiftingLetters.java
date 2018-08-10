@@ -23,7 +23,7 @@ Note:
 1 <= S.length = shifts.length <= 20000
 0 <= shifts[i] <= 10 ^ 9
 */
-class Solution {
+class ShiftingLetters {
     public String shiftingLetters(String S, int[] shifts) {
         long[] actualShifts = new long[shifts.length];
         actualShifts[shifts.length - 1] = shifts[shifts.length - 1];
