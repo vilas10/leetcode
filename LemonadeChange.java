@@ -5,7 +5,7 @@ Each customer will only buy one lemonade and pay with either a $5, $10, or $20 b
 Note that you don't have any change in hand at first.
 Return true if and only if you can provide every customer with correct change.
 */
-class Solution {
+class LemonadeChange {
     public boolean lemonadeChange(int[] bills) {
         if (bills.length == 0) return true;
         if (bills[0] != 5) return false;
