@@ -5,7 +5,7 @@ For example, given the array [2,3,-2,4],
 the contiguous subarray [2,3] has the largest product = 6.
 */
 
-public class Solution {
+public class MaximumProductSubarray {
     public int maxProduct(int[] nums) {
         int[] prod = new int[nums.length];
         int[] minprod = new int[nums.length];
