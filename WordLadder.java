@@ -1,7 +1,7 @@
 /*
 https://leetcode.com/problems/word-ladder/description/
 */
-public class Solution {
+public class WordLadder {
     public int ladderLength(String beginWord, String endWord, Set<String> wordList) {
         
         wordList.add(endWord);
