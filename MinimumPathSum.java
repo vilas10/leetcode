@@ -3,7 +3,7 @@ Given a m x n grid filled with non-negative numbers, find a path from top left t
 
 Note: You can only move either down or right at any point in time.
 */
-public class Solution {
+public class MinimumPathSum {
     public int minPathSum(int[][] grid) {
         if(grid == null || grid.length == 0) {
             return 0;
