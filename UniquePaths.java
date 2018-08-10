@@ -11,7 +11,7 @@ Above is a 3 x 7 grid. How many possible unique paths are there?
 Note: m and n will be at most 100.
 */
 
-public class Solution {
+public class UniquePaths {
     public int uniquePaths(int m, int n) {
         
         int[][] a=new int[m][n];
