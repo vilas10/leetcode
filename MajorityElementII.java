@@ -12,7 +12,7 @@ Example 2:
 Input: [1,1,1,3,3,2,2,2]
 Output: [1,2]
 */
-public class Solution {
+public class MajorityElementII {
     public List<Integer> majorityElement(int[] nums) {
        if(nums == null || nums.length == 0) {
             return new ArrayList<Integer>();
