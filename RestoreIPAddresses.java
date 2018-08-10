@@ -6,7 +6,7 @@ Example:
 Input: "25525511135"
 Output: ["255.255.11.135", "255.255.111.35"]
 */
-public class Solution {
+public class RestoreIPAddresses {
     public List<String> restoreIpAddresses(String s) {
         List<String> ips = new ArrayList<String>();
         if(s == null || s.length() < 4 || s.length() > 12) {
