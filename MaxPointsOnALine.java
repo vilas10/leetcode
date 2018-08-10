@@ -10,7 +10,7 @@ https://leetcode.com/problems/max-points-on-a-line/description/
  *     Point(int a, int b) { x = a; y = b; }
  * }
  */
-public class Solution {
+public class MaxPointsOnALine {
     public int maxPoints(Point[] points) {
         if(points == null || points.length == 0) {
             return 0;
