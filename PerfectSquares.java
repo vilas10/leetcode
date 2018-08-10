@@ -1,7 +1,7 @@
 /*
 Given a positive integer n, find the least number of perfect square numbers (for example, 1, 4, 9, 16, ...) which sum to n.
 */
-public class Solution {
+public class PerfectSquares {
     public int numSquares(int n) {
         if(n <= 0) {
             return 0;
