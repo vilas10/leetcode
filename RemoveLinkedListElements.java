@@ -14,7 +14,7 @@ Return: 1 --> 2 --> 3 --> 4 --> 5
  *     ListNode(int x) { val = x; }
  * }
  */
-public class Remove_Linked_List_Elements {
+public class RemoveLinkedListElements {
     public ListNode removeElements(ListNode head, int val) {
         if(head == null) {
             return head;
