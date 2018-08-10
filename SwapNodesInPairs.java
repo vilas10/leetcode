@@ -15,7 +15,7 @@ Your algorithm should use only constant space. You may not modify the values in 
  *     ListNode(int x) { val = x; }
  * }
  */
-public class Solution {
+public class SwapNodesInPairs {
     public ListNode swapPairs(ListNode head) {
         
         // Initialization
