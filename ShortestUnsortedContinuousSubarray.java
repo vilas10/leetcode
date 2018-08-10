@@ -3,7 +3,7 @@ Given an integer array, you need to find one continuous subarray that if you onl
 
 You need to find the shortest such subarray and output its length.*/
 
-class Solution {
+class ShortestUnsortedContinuousSubarray {
     public int findUnsortedSubarray(int[] nums) {
         int[] newArray = Arrays.copyOfRange(nums, 0, nums.length);
         Arrays.sort(newArray);
