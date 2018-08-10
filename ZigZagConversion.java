@@ -11,7 +11,7 @@ string convert(string text, int nRows);
 convert("PAYPALISHIRING", 3) should return "PAHNAPLSIIGYIR".
 */
 
-public class Solution {
+public class ZigZagConversion {
     public String convert(String s, int numRows) {
         if(numRows <= 0)
             return "";
