@@ -3,7 +3,7 @@ Given a set of distinct integers, nums, return all possible subsets (the power s
 
 Note: The solution set must not contain duplicate subsets.
 */
-public class Solution {
+public class Subsets {
     public List<List<Integer>> subsets(int[] nums) {
         List<List<Integer>> subsetsOut = new ArrayList<List<Integer>>();
         if(nums == null || nums.length == 0) {
