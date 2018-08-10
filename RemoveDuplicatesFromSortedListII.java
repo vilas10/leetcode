@@ -18,7 +18,7 @@ Output: 2->3
  *     ListNode(int x) { val = x; }
  * }
  */
-public class Solution {
+public class RemoveDuplicatesFromSortedListII {
     public ListNode deleteDuplicates(ListNode head) {
         if(head == null) {
             return null;
