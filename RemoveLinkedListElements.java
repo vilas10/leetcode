@@ -10,7 +10,7 @@ Remove all elements from a linked list of integers that have value val.
  *     ListNode(int x) { val = x; }
  * }
  */
-public class Solution {
+public class RemoveLinkedListElements {
     public ListNode removeElements(ListNode head, int val) {
         if(head == null) {
             return head;
