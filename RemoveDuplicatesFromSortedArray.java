@@ -10,7 +10,7 @@ Your function should return length = 2, with the first two elements of nums bein
 It doesn't matter what you leave beyond the new length.
 */
 
-public class Solution {
+public class RemoveDuplicatesFromSortedArray {
     public int removeDuplicates(int[] nums) {
         
         if(nums==null || nums.length==0){
