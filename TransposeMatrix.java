@@ -5,7 +5,7 @@ The transpose of a matrix is the matrix flipped over it's main diagonal, switchi
 
 */
 
-class Solution {
+class TransposeMatrix {
     public int[][] transpose(int[][] A) {
         int[][] trans = new int[A[0].length][A.length];
         
